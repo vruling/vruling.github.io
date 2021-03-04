@@ -1,1 +1,1 @@
-# OsadchiyHomework.github.io
+# Домашние задания Осадчего БІКС-21
