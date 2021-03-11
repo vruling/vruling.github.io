@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('../fonts/Roboto Black'), local('../fonts/Roboto-Black'), url('../fonts/Robotoblack.woff2') format('woff2'), url('../fonts/Robotoblack.woff') format('woff'), url('../fonts/Robotoblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GothamRounded';
+    src: url('../fonts/GothamRounded-Bold.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Bold.woff') format('woff'),
+        url('../fonts/GothamRounded-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+div.header{
+	width: 1280px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+ul.nav{
+	text-align:center;
+
+}
+li.nav1{
+	display: inline;
+}
+a.link1{
+	text-decoration: none;
+	text-transform:uppercase;
+	margin-right: 65px;
+	font-family:Roboto; 
+	font-size: 18px;
+	color: #16a085;
+    letter-spacing: 1.5px;
+
+}
+
+
+img.slider{
+	 display: block;
+     margin: auto;
+}
+
+div.content{
+	margin: auto;
+	width: 1280px;
+	height: 640px;
+	background: #f5f6f7;
+	padding-top:56px; 	
+}
+div.layer1{
+	font-family: Roboto; 
+	font-size: 22px;	
+	letter-spacing: 1.5px;
+	color: #373737;
+	text-align: center;
+	text-transform:uppercase;
+	
+}
+div.layer2{
+	font-family: Roboto; 
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	color: #373737;
+	text-align: center;
+	margin-top:37px;	
+	line-height: 26px;
+	}
+div.layer3{
+	font-family: Roboto; 
+    font-size: 16px;
+	letter-spacing: 1.5px;
+	color: #373737;
+	text-align: center;
+	margin-top:40px;	
+	line-height: 26px;
+    
+}
+div.layer4{
+	text-align:center;
+	margin-top:45px;	
+}
+.link2{
+text-decoration: none;
+background: #16a085; 
+font-family: GothamRounded; 	
+font-size: 12px; 
+letter-spacing: 2px; 
+color: #ffffff; 
+padding: 20px 40px;
+border-radius: 2px;
+text-transform: uppercase;
+}
+
+
+div.footer{
+position: relative;
+	width: 1280px;
+	height: 114px;
+	margin: auto;
+
+}
+.text1{
+position: absolute;
+top:56px;
+right:104px;
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.15em;
+color: #373737;
+}
+.text2{
+position: absolute;
+text-transform: uppercase;
+top:49px;
+left:107px;
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.15em;
+
+}
+.link3{
+	color: #373737;
+	text-decoration: none;
+}
+.text2_1{
+	color: #16a085;
+}
