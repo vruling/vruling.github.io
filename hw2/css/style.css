@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+padding-bottom: 30px;
+}
+a{
+text-decoration: none;
+}
+.conteiner1{	  
+height: 74px;
+width: 1280px;
+margin:61px auto 45px; 
+}
+.text1{ 
+	position: absolute;
+font-family: 'Myriad Pro';
+font-size: 80px; 
+}
+
+.conteiner2{
+width: 1280px;
+height: 70px;
+background: #35444f;
+margin:auto; 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ul.c1{
+list-style: none;		 
+text-align:center;		
+display:flex;
+}
+li.c2{
+display: inline-block;
+padding: 34px 42px 34px;
+line-height: 0px;
+}
+li.c2:hover{
+display: inline-block;
+padding: 34px 42px 34px;
+box-shadow: 1px 0px  #818181, -1px 0px #818181;
+background: #222f3a;
+line-height: 0px;
+}
+
+
+#text1_1{color: #000000;}
+#text1_2{color: #4bcaff;}
+
+.link1 {		
+font-family: 'Myriad Pro'; 
+font-size: 24px;
+color: #ffffff;
+}
+
+.content{
+ position: relative;
+ margin: 50px auto; 
+ width: 1280px;
+ height: 530px;
+}
+
+.a2 {
+ position: absolute;
+ right:0;
+ height: 530px;
+ width:880px;
+ border: 1px solid black;
+ overflow: hidden; 
+}
+img.a2_1{
+transition: 0.5s; }
+img.a2_1:hover {
+transform: scale(1.1); 
+}
+
+img{
+	 display: inline-block;
+}
+
+.a1 {
+ position:absolute;
+width: 344px;
+height: 411.5px;
+ border: 1px solid black;
+ 
+}
+
+.a1 a {
+display: inline-block;
+padding-top: 28px;
+padding-left: 44px;
+padding-bottom: 28px;
+font-family: 'Myriad Pro';    
+color: #495863;
+display: block;  
+text-decoration: none;
+font-size: 27px;
+}
+.a1 a:hover {
+color: #000000;
+padding-top: 28px;
+padding-left: 69px;
+padding-bottom: 28px;
+background-color: #dbdbdb;;
+}
+
+.conteiner3{
+position: relative;
+margin:auto; 
+width: 1280px;
+height: 113px;
+}
+.f1{
+position:absolute;
+right:0;
+font-family: 'Myriad Pro'; 
+font-size: 18px;
+color: black;
+line-height: 20pt;   
+}
+.conteiner4{
+position: relative;
+margin: 30px auto 51px; 
+width: 1280px;
+height: 109px;
+}
+.f2{
+ position:absolute;
+ right:0;
+ font-family: 'Myriad Pro'; 
+ font-size: 18px;
+ color: black;
+ line-height: 20pt;  
+}
+.conteiner5{
+position: relative;
+width: 1280px;
+height: 70px;
+background: #b4b7ba;
+margin: auto; 
+
+
+
+}
+.k1{
+position: relative;
+left:44px;
+top: 22px;
+}
+li.k2{
+position: relative;
+margin-right:19px;
+display: inline-block;
+
+
+
+}
+.link3 {		
+font-family: 'Myriad Pro'; 
+font-size: 28px;
+color: #0c1927;
+
+}
+a.link3:hover{
+ 
+color: #3181a6;
+text-decoration:underline;
+}
+.copyright{
+position: absolute;
+top:25px;
+right: 34px;
+font-family: 'Myriad Pro'; 
+font-size: 24px;
+color: #0c1927;
+}
