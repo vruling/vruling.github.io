@@ -1,0 +1,420 @@
+@font-face {
+    font-family: 'Verdana-Bold';
+    src: url('../fonts/Verdana-Bold.woff2') format('woff2'),
+        url('../fonts/Verdana-Bold.woff') format('woff'),
+        url('../fonts/Verdana-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+   
+}
+@font-face {
+    font-family: 'Verdana';
+    src: url('../fonts/Verdana.woff2') format('woff2'),
+        url('../fonts/Verdana.woff') format('woff'),
+        url('../fonts/Verdana.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;      
+	background-attachment: fixed; 
+	background-size: cover;  
+
+}
+a{	
+text-decoration: none;
+}
+svg {
+	
+	padding-right: 25px;
+}
+button:active, button:focus {
+  outline: none;
+}
+.calendary{
+position: relative;
+float: right;
+margin-right: 25px;
+background: url('../img/css_sprites.png') -10px -46px;
+margin-top:17px;
+fill: white;
+width: 19px; 
+height: 19px;
+}
+.calendary:hover{
+background: url('../img/css_sprites.png') -10px -85px;
+transition: 1.5s;
+
+}
+.forum{
+position: relative;
+float: right;
+margin-right: 30px;
+ background: url('../img/css_sprites.png') -10px -124px;
+margin-top:17px;                   
+fill: white;
+width: 28px;
+height: 20px;
+}
+.forum:hover{
+ background: url('../img/css_sprites.png') -10px -164px;
+transition: 1.5s;
+}
+.compass{
+position: relative;
+float: right;
+margin-right: 30px;
+background: url('../img/css_sprites.png') -10px -204px;
+margin-top:17px;
+fill: white;
+width: 20px;
+height: 20px;
+}
+.compass:hover{
+background: url('../img/css_sprites.png') -10px -244px;
+transition: 1.5s;
+}
+.line{
+position: relative;
+float: right;
+margin-top:17px;
+margin-right:30px;  
+background: grey;
+width: 2px;
+height: 19px;
+opacity: 0.5;
+}
+
+
+div.header{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	max-width: 1366px;
+	height: 54px;
+	background: rgba(0, 0, 0, 0.41);
+}
+.text1{
+	position: relative;
+	text-transform:uppercase;
+	float: left;
+	font-family: Verdana-Bold;
+	margin-left: 81px; 
+	color: #ffffff;
+	transition: color 1s;
+	font-size: 20px;          
+    top: 50%;                      
+    transform: translate(0, -50%) 
+
+
+}
+.text1:hover{
+	color: #3cb878;
+
+}
+.text2{
+	position: relative;
+	float: right;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #ffffff;
+	margin-right: 75px; 
+	top: 50%;                      
+    transform: translate(0, -50%)
+}
+#text2_1{
+	color: #3cb878;
+	transition: font-size 1s;
+}
+#text2_1:hover{
+	text-decoration: underline;
+	font-size: 14.5px;
+}
+.text3{
+	position: relative;
+	float: right;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #ffffff;
+	margin-right: 6px; 
+	top: 50%;                      
+    transform: translate(0, -50%)
+}
+#text3_1{
+	color: #3cb878;
+	transition: font-size 1s;
+}
+#text3_1:hover{
+	text-decoration: underline;
+	font-size: 14.5px;
+}
+
+
+
+.main{
+	position: relative;
+	top:65px;
+	margin: auto;
+	width: 444px;
+	height: 590px;
+	background-color: white;
+	box-shadow: 0px 4px 18px 0px rgba(0,0,0,0.51);
+	border-radius: 10px;
+
+}
+#min_block{
+	position: absolute;
+	width: 18px;
+    height: 18px;
+    top:29px; 
+    background: #3cb878;
+}
+#sing_up{
+	position: absolute;
+	top:26px;
+	left: 60px;
+	font-family: Verdana;
+	font-size: 20px;
+	color: #434343;
+}
+#log_in{
+	position: absolute;
+	top:33px;
+	right: 59px;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #3cb878;
+	transition: font-size 1s;
+}
+#log_in:hover{
+	text-decoration: underline;
+	font-size: 14.5px;
+}
+.div_sn{
+	position: relative;
+	width:157px;
+	height: 46px; 
+	border-radius: 5px;
+	margin-right:8px;
+	margin-top: 63px;
+	left: 62px;
+	float: left;
+}
+.facebook{
+	position: relative;
+	background: url('../img/css_sprites.png') -9px -280px;
+	width: 20px;
+	height: 30px;
+	fill: white;
+	margin-top: 9px;
+	margin-left: 20px;
+}
+.googleplus{
+	position: relative;
+	background: url('../img/css_sprites.png') -10px -4px;
+	width: 25px;
+	height: 30px;
+	fill: white;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.line1{
+	position: absolute;
+	width: 1px;
+	height: 28px;
+	background: #000000;
+	opacity: 0.1;
+	top: 9px;
+	margin-left: 47px;
+}
+.line2{
+	position: absolute;
+	width: 1px;
+	height: 28px;
+	background: #000000;
+	opacity: 0.1;
+	top: 9px;
+	margin-left: 47px;
+}
+.text_facebook{
+	position: absolute;
+	top: 16px;
+	left: 66px;
+	font-family: Verdana;
+	font-size: 16px;
+	color: #ffffff;
+}
+.text_google{
+	position: absolute;
+	top: 16px;
+	left: 72px;
+	font-family: Verdana;
+	font-size: 16px;
+	color: #ffffff;
+}
+#div_blue{
+	background-color: #305db8;
+	transition: background-color 1s;
+	
+}
+#div_blue:hover{
+	background-color: #264b96;
+	
+}
+#div_red{
+	background-color: #df4a32;
+	transition: background-color 1s;
+}
+#div_red:hover{
+	background-color: #c3412c;
+}
+.separator{
+	position: relative;
+	margin-top:37px; 
+	margin-right:52px;
+	left:62px;
+	width: 135px;
+	height: 1px;
+	background: #eaeaea;
+	float: left;
+}
+.text_or{
+	position: absolute;
+	margin-top:139px; 
+	margin-left:215px;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #848484;
+}
+.input_text{
+	position: relative;
+	top:12px; 
+	margin-left:62px;
+	margin-top:9px; 
+	width: 299px;
+	height: 42px;
+	border:2px solid #eaeaea;
+	border-radius: 2px;
+	padding-left: 19px;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #434343;
+	
+
+}
+::-webkit-input-placeholder { 
+  	font-family: Verdana;
+	font-size: 14px;
+	color: #bebebe;
+
+
+}
+:-moz-placeholder { 
+  	font-family: Verdana;
+	font-size: 14px;
+	color: #bebebe;}
+::-moz-placeholder { 
+    font-family: Verdana;
+	font-size: 14px;
+	color: #bebebe;}
+:-ms-input-placeholder {
+    font-family: Verdana;
+	font-size: 14px;
+	color: #bebebe;
+}
+.input_text:focus {
+ box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
+ outline:none;
+}
+.checkbox_input{
+  -webkit-appearance:none;
+  appearance:none;
+}
+checkbox{
+  position: relative;
+}
+.check{
+	position: relative;
+	top: 29px;
+	left:63px;
+}
+.checkbox_label{
+
+   font-family: Verdana;
+	font-size: 14px;
+	color: #434343;
+	padding-left: 25px;
+	top: -5px;
+
+
+}
+.checkbox_label:before{
+  content: "";
+  display: block;
+  height: 19px;
+  width: 19px;
+  border:1px solid #bebebe;
+  background: white;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.checkbox_label:after{
+  content: "";
+  display: block;
+  height: 13px;
+  width: 13px;
+  background-image: url(../img/check.png); 
+  background-repeat: no-repeat;      
+  background-size: 13px 13px;
+  opacity: 0;
+  position: absolute;
+  top:4px;
+  left:4px;
+  z-index: 5;
+}
+.checkbox_input:checked + .checkbox_label:after{
+opacity: 1;
+
+}
+.checkbox_label:hover{
+	cursor: pointer;
+}
+#terns{
+	color: #3cb878;
+	transition: font-size 1s;
+}
+#terns:hover{
+	text-decoration: underline;
+	font-size: 14.5px;
+}
+.bottom_create{
+	position: absolute;
+	border: 0;
+	top: 506px;
+	left: 62px;
+	text-decoration: none;
+	background: #3cb878; 
+	font-family: Verdana;
+	font-size: 16px;
+	color: #ffffff;
+	padding: 17px 100px;
+	border-radius: 2px;
+	transition: background 1s;
+}
+
+.bottom_create:hover{
+	background: #329a65; 
+	cursor: pointer;
+}
+
+
+
+
+
