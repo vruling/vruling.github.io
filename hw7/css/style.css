@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: local('OpenSansBold'), 
+    local('../fonts/OpenSans-Bold'), 
+    url('../fonts/opensansbold.woff2') format('woff2'), 
+    url('../fonts/opensansbold.woff') format('woff'),
+     url('../fonts/opensansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+body
+{
+  background-color: #11110f;
+  
+}
+#titl
+{
+	position: absolute;
+	background:  #11110f;
+	width: 1550px;
+	height: 60em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -14em;
+	font-size: 350%;
+	text-align: justify;
+	overflow: hidden;
+	transform-origin: 50% 100%;
+	transform: perspective(500px) rotateX(30deg);
+}
+#titl p
+{
+	text-align: justify;
+	margin: 205px 0;
+}
+#titl p.center
+{
+	text-align: center;
+}
+
+#titlcont
+{
+	position: absolute;
+	animation: textup 30s  infinite;
+	font-family: OpenSansBold;
+    color: #ffc700;
+	font-size: 75px;
+	line-height: 1.5;
+}
+
+
+
+@keyframes textup {
+	0% { top: 83%; }
+	100% { top: 0%; }
+}
