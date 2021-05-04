@@ -1,0 +1,50 @@
+body{
+			background: RosyBrown;
+		}
+		.glav{
+			position: relative;
+			max-width: 1400px;
+			height: 120px;
+			margin: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		#tt{
+			position: absolute;
+			line-height: 1.5;
+
+		}
+		#hw{
+			font-family: sans-serif;
+			font-size: 40px;
+			color: Maroon;
+			font-weight: 600;
+		}
+		#md{
+			font-family: sans-serif;
+			font-size: 50px;
+			color: Teal;
+			font-weight: 600;
+		}
+		#exere{
+			font-family: sans-serif;
+			font-size: 50px;
+			color: Maroon;
+			font-weight: 600;
+		}
+		.ex{
+			position: relative;
+			max-width: 1400px;
+			height: 220px;
+			margin: auto;
+			display: flex;
+			text-align: center;
+		}
+		ul li {
+	color: Teal;
+    font-size: 40px;
+    font-family: sans-serif;
+	font-weight: 600;
+}

@@ -1,0 +1,91 @@
+	body{
+			background: RosyBrown;
+		}
+		.glav{
+			position: relative;
+			max-width: 1400px;
+			height: 120px;
+			margin: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		#tt{
+			position: absolute;
+			line-height: 1.5;
+
+		}
+		#hw{
+			font-family: sans-serif;
+			font-size: 40px;
+			color: Maroon;
+			font-weight: 600;
+		}
+		#md{
+			font-family: sans-serif;
+			font-size: 50px;
+			color: Teal;
+			font-weight: 600;
+		}
+		#exere{
+			font-family: sans-serif;
+			font-size: 50px;
+			color: Maroon;
+			font-weight: 600;
+		}
+		#ex{
+			position: relative;
+			max-width: 1400px;
+			height: 220px;
+			margin: auto;
+			display: flex;
+			text-align: center;
+		}
+		ul li {
+		color: Teal;
+	    font-size: 40px;
+	    font-family: sans-serif;
+		font-weight: 600;
+	    }
+		.none {
+   		 display: none;
+		}
+		.redOutline {
+		    outline: red 2px solid;
+		}
+		input:focus {
+		    outline: green 2px solid;
+		}
+		.content {
+		    margin-top: 10px;
+		}
+		span {
+			position: relative;
+			margin-left: 10px;
+		    display: inline-block;
+		    padding: 4.5px 1px 4.5px 10px;
+		    font-size: 13px;
+		    line-height: 15px;
+		    border: 1px solid #d2d2d2;
+		    border-radius: 40px;
+		}
+		span::after {
+		    border: 1px solid #d2d2d2;
+		    border-radius: 50%;
+		    content: '\2716';
+		    margin-left: 10px;
+    		padding: 3px 5px ;
+    		cursor: pointer;
+		}
+
+		#timer, #timer1{
+		color: Maroon;
+	    font-size: 40px;
+	    font-family: sans-serif;
+		font-weight: 600;
+	    }
+		#myList{
+			position: absolute;
+			top: 120px;
+		}
